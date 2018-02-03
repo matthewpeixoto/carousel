@@ -23,11 +23,6 @@
     height: 26rem;
   }
 
-  .banner-content-inner {
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-  }
-
 }
 
 @media only screen and (min-width: 67em) {
@@ -39,11 +34,6 @@
 
   .banner-image::before {
     background: linear-gradient(to left, rgba(0, 0, 0, .25), rgba(0, 0, 0, .75) 75%);
-  }
-
-  .banner-content-inner {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
 }

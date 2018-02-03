@@ -26,18 +26,30 @@ button:active {
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
+.pad-left-adapt {
+  padding-left: 1.3rem;
+}
+
+@media only screen and (min-width: 46em) {
 
   .push-4 {
     margin-bottom: 5.6rem;
   }
 
+  .pad-left-adapt {
+    padding-left: 2.8rem;
+  }
+
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 67em) {
 
   .push-4 {
     margin-bottom: 6rem;
+  }
+
+  .pad-left-adapt {
+    padding-left: 6rem;
   }
 
 }
