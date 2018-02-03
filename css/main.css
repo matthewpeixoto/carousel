@@ -1,7 +1,7 @@
 html {
   min-width: 320px;
 
-  background-color: #000;
+  background-color: #111;
 
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -13,6 +13,17 @@ html {
 
 .push-4 {
   margin-bottom: 5.2rem;
+}
+
+button,
+button:active {
+  padding: 0;
+
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {

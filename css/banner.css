@@ -1,0 +1,49 @@
+.banner-image {
+  height: 22rem;
+
+  background-image: url('../images/bee-movie.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.banner-image::before {
+  content: " ";
+  background: rgba(0, 0 ,0 ,.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+@media only screen and (min-width: 46em) {
+
+  .banner-image {
+    height: 26rem;
+  }
+
+  .banner-content-inner {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .banner-image {
+    height: 50vh;
+    min-height: 26rem;
+  }
+
+  .banner-image::before {
+    background: linear-gradient(to left, rgba(0, 0, 0, .25), rgba(0, 0, 0, .75) 75%);
+  }
+
+  .banner-content-inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+}
