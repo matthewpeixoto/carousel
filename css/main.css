@@ -1,0 +1,32 @@
+html {
+  min-width: 320px;
+
+  background-color: #000;
+
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.color-grey {
+  color: #ccc;
+}
+
+.push-4 {
+  margin-bottom: 5.2rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .push-4 {
+    margin-bottom: 5.6rem;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .push-4 {
+    margin-bottom: 6rem;
+  }
+
+}
