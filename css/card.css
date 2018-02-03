@@ -1,3 +1,10 @@
+.i-play {
+  opacity: 0;
+  bottom: -50px;
+  transition: all 400ms;
+  background: linear-gradient(transparent, rgba(0, 0, 0, .5));
+}
+
 .row {
   overflow: scroll;
 }
@@ -53,6 +60,11 @@
 
 .row-inner:hover .card:hover .card-details {
   opacity: 1;
+}
+
+.row-inner:hover .card:hover .i-play {
+  opacity: 1;
+  bottom: 0;
 }
 
 @media only screen and (min-width: 46em) {
