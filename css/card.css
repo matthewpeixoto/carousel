@@ -1,7 +1,7 @@
 .i-play {
   opacity: 0;
   bottom: -50px;
-  transition: all 400ms;
+  transition: all 400ms ease-out;
   background: linear-gradient(transparent, rgba(0, 0, 0, .5));
 }
 
@@ -12,7 +12,7 @@
 .row-inner {
   margin-top: 2.6rem;
 
-  transition: transform 400ms;
+  transition: transform 400ms ease-out;
   white-space: nowrap;
 }
 
@@ -21,7 +21,7 @@
   height: 144px;
 
   cursor: pointer;
-  transition: all 400ms;
+  transition: all 400ms ease-out;
   transform-origin: center left;
 }
 
@@ -55,7 +55,7 @@
   top: calc(144px + .325rem);
 
   opacity: .5;
-  transition: opacity 400ms;
+  transition: opacity 400ms ease-out;
 }
 
 .row-inner:hover .card:hover .card-details {
