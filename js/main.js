@@ -1,7 +1,7 @@
-$('#bee-movie').on('mousmouseover', function () {
+$('#bee-movie').on('mouseover', function () {
   $('.banner-image').css("background-image", "url(images/banner/bee-movie.jpg)");
   $('.banner-title').html("Bee Movie");
-  $('.banner-desc').html("Barry B. Benson, a bee just graduated from college, is disillusioned at his lone career choice: making honey. On a special trip outside the hive, Barry's life is saved by Vanessa, a florist in New York City.");
+  $('.banner-desc').html("Barry B. Benson is disillusioned at his lone career choice: making honey. On a trip outside the hive, Barry's life is saved by Vanessa, a florist in New York City.");
 });
 
 $('#dunkirk').on('mouseover', function () {
@@ -15,7 +15,7 @@ $('#dunkirk').on('mouseover', function () {
 $('#wonder-woman').on('mouseover', function () {
   $('.banner-image').css("background-image", "url(images/banner/wonder-woman.jpg)");
   $('.banner-title').html("Wonder Woman");
-  $('.banner-desc').html("When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.");
+  $('.banner-desc').html("Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.");
 });
 
 $('#blade-runner').on('mouseover', function () {
