@@ -11,10 +11,6 @@ html {
   color: #ccc;
 }
 
-.push-4 {
-  margin-bottom: 5.2rem;
-}
-
 button,
 button:active {
   padding: 0;
@@ -40,10 +36,6 @@ button:active {
 
 @media only screen and (min-width: 46em) {
 
-  .push-4 {
-    margin-bottom: 5.6rem;
-  }
-
   .pad-left-adapt {
     padding-left: 2.8rem;
   }
@@ -55,10 +47,6 @@ button:active {
 }
 
 @media only screen and (min-width: 67em) {
-
-  .push-4 {
-    margin-bottom: 6rem;
-  }
 
   .pad-left-adapt {
     padding-left: 6rem;

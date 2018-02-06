@@ -10,7 +10,8 @@
 }
 
 .row-inner {
-  margin-top: 2.6rem;
+  margin-top: 5.2rem;
+  margin-bottom: 5.2rem;
 
   transition: transform 400ms ease-out;
   white-space: nowrap;
@@ -70,7 +71,8 @@
 @media only screen and (min-width: 46em) {
 
   .row-inner {
-    margin-top: 2.8rem;
+    margin-top: 5.6rem;
+    margin-bottom: 5.6rem;
   }
 
 }
@@ -78,7 +80,8 @@
 @media only screen and (min-width: 67em) {
 
   .row-inner {
-    margin-top: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
 }
